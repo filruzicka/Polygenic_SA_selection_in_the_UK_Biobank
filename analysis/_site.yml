@@ -1,7 +1,7 @@
-name: "Polygenic_SA_selection_in_the_UK_Biobank"
+name: Polygenic_SA_selection_in_the_UK_Biobank
 output_dir: ../docs
 navbar:
-  title: "Polygenic_SA_selection_in_the_UK_Biobank"
+  title: Polygenic_SA_selection_in_the_UK_Biobank
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/filruzicka/Polygenic_SA_selection_in_the_UK_Biobank
 output:
   workflowr::wflow_html:
     toc: yes
